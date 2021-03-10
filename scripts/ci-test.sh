@@ -30,4 +30,13 @@ make test-junit
 echo -e "\n*** Testing Cluster API Provider Docker ***\n"
 # Docker provider
 cd test/infrastructure/docker
+<<<<<<< HEAD
 make test-junit
+=======
+make test-verbose
+
+echo -e "\n*** Testing Cluster API Operator ***\n"
+# Operator
+cd exp/operator
+make test-verbose
+>>>>>>> Make CI scripts work with operator
